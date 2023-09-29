@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+int main(){
+
+  char op;
+  float num1, num2;
+
+  cout << "Enter Mathematical Operation: 1.Add, 2.Subtract, 3.Multiply, 4.Divide: ";
+  cin >> op;
+
+  cout << "\nEnter two operands: ";
+  cin >> num1 >> num2;
+
+  switch(op) {
+
+    case '1':
+      cout << num1 << " + " << num2 << " = " << num1 + num2;
+      break;
+
+    case '2':
+      cout << num1 << " - " << num2 << " = " << num1 - num2;
+      break;
+
+    case '3':
+      cout << num1 << " * " << num2 << " = " << num1 * num2;
+      break;
+
+    case '4':
+      cout << num1 << " / " << num2 << " = " << num1 / num2;
+      break;
+
+    default:
+      cout << "Error! Invalid Choice";
+      break;
+  }
+
+  return 0;
+
+}
