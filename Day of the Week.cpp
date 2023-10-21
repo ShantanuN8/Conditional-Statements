@@ -33,3 +33,10 @@ int main(){
     }
     return 0;
 }
+/*OUTPUT
+Enter number of the day:-4
+Thursday
+
+Enter number of the day:-9
+Invalid Input
+*/
