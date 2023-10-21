@@ -37,3 +37,24 @@ int main(){
   return 0;
 
 }
+/*OUTPUT
+Enter Mathematical Operation: 1.Add, 2.Subtract, 3.Multiply, 4.Divide: 1
+Enter two operands: 24 
+56
+24 + 56 = 80
+
+Enter Mathematical Operation: 1.Add, 2.Subtract, 3.Multiply, 4.Divide: 2
+Enter two operands: 78
+32
+78 - 32 = 46
+
+Enter Mathematical Operation: 1.Add, 2.Subtract, 3.Multiply, 4.Divide: 3
+Enter two operands: 4
+8
+4 * 8 = 32
+
+Enter Mathematical Operation: 1.Add, 2.Subtract, 3.Multiply, 4.Divide: 4
+Enter two operands: 36
+12
+36 / 12 = 3
+*/
