@@ -16,3 +16,13 @@ int main()
         cout<<"Number is odd";
     }
 }
+/*OUTPUT
+Enter a number:-2
+Number is even
+
+Enter a number:-57
+Number is odd
+
+Enter a number:-0
+Number is zero
+*/
